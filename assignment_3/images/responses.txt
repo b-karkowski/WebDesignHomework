@@ -1,0 +1,3 @@
+Text editor is helpful as it can be a faster way to edit, especially for simple edits.
+
+Using a relative URL can also be beneficial for quicker coding and allow for faster loading as compared to absolute URL's.
