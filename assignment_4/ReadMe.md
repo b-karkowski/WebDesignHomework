@@ -17,4 +17,12 @@
  
 1. The index.html page serves as a homepage for the site. It is considered the master HTML file and it should go under the root directory.
 
-1. Some of the best naming practices utilize lowercase letters, capital letters, camel casing (ex: myStyles), underscores, or dashes. It is imperative to avoid starting a file name with a numeric character, use any unusual characters (ex: ?, #, %, etc.), and absolutely never use spaces when naming files. You must also be sure to always use an extension with every file.     
+1. Some of the best naming practices utilize lowercase letters, capital letters, camel casing (ex: myStyles), underscores, or dashes. It is imperative to avoid starting a file name with a numeric character, use any unusual characters (ex: ?, #, %, etc.), and absolutely never use spaces when naming files. You must also be sure to always use an extension with every file.
+
+**_Below is a link to my live url!_**
+
+https://b-karkowski.github.io/WebDesignHomework/assignment_4/
+
+![index html_example_BK](https://github.com/b-karkowski/WebDesignHomework/assets/124627441/d63184cb-f514-485a-ac61-1148327b64d3)
+
+
