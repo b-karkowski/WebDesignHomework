@@ -65,15 +65,24 @@
  </p>
  <h2>Inquire Below</h2>
  <form method="post" action="index.html">
-    <h3>Who you are:</h3><br />
+    <h3>Who you are:</h3>
     <input type="text" id="name" placeholder="enter your name" autofocus>
     <b><input type="text" id="pet-name" placeholder="your pets name"></b>
+    <br>
+    <p><h3>Age of pet:</h3></p>
+    <input type="radio" name="age" value="Puppy" /> Puppy (less than 1 year)
+    <input type="radio" name="age" value="Young adult" /> Young adult (1-2 years)
+    <input type="radio" name="age" value="Adult" /> Adult (2+ years)
+    <input type="radio" name="age" value="Senior" /> Senior (10+ years)
     
     <h3>What you're looking for:</h3>
     <input type="checkbox" name="looking-for" value="Daycare">Daycare<br />
     <input type="checkbox" name="looking-for" value="Boarding">Boarding<br />
     <input type="checkbox" name="looking-for" value="Packages">Packages<br />
 
+    <h3>Other comments, questions, or concerns:</h3>
+    <textarea name="other comments" id="comments" rows="25" col="50">comments, questions, or concerns</textarea>
+    <input type="submit" name="submit" value="Submit"/>
 
 </form> 
 </body>
