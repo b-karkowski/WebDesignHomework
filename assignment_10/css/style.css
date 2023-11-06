@@ -36,9 +36,6 @@ div.align{
 /* First Heading */
 
 #title-header{
-    position: absolute;
-    left: 50px;
-    top:5px;
     color: #fff1ab;
     opacity: .50;
     font-size: 75px;
@@ -47,9 +44,6 @@ div.align{
 /* Sub-Heading*/
 
 #secondary-header{
-    position:absolute;
-    left: 50px;
-    top:5px;
     color: #fff1ab;
     opacity: .50;
     font-size: 45px;
