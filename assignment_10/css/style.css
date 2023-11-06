@@ -4,7 +4,6 @@ body{
 
 .main-container{
     background-color:#273E6B;
-    color:white;
     width: 95%;
     margin: auto;
     text-align: center;
@@ -33,7 +32,7 @@ body{
 /* First Heading */
 
 #title-header{
-    color: #fff1ab;
+    color: #fee570;
     opacity: .90;
     font-size: 75px;
 }
@@ -41,7 +40,7 @@ body{
 /* Sub-Heading*/
 
 #secondary-header{
-    color: #fff1ab;
+    color: #fee570;
     opacity: .75;
     font-size: 45px;
 }
