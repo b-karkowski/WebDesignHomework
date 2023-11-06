@@ -9,6 +9,10 @@ body{
     margin: auto;
 }
 
+div.align{
+    text-align: center;
+}
+
 .photo-container{
     background-color:#6A7DA4;
     padding: 5px;
