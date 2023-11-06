@@ -35,6 +35,7 @@ body{
 
 #title-header{
     color: #fee570;
+    opacity: 80;
     font-size: 75px;
 }
 
@@ -42,6 +43,6 @@ body{
 
 #secondary-header{
     color: #fee570;
-    opacity: .75;
+    opacity: .60;
     font-size: 45px;
 }
