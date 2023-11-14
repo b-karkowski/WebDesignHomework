@@ -1,0 +1,32 @@
+/* Internal CSS */
+body {
+    font-family: 'Open Sans', sans-serif; /* External font */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #744527;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Hover Effect on Heading */
+h1:hover {
+    color: #d8bca3;
+}
+
+
+
