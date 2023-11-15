@@ -24,6 +24,14 @@ p {
     text-align: justify;
 }
 
+.p1 {
+    text-align: left;
+}
+
+.p2{
+    text-align: right;
+}
+
 /* Hover Effect on Heading */
 h1:hover {
     color: #d8bca3;
