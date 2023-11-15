@@ -28,14 +28,13 @@ p {
 
 .p1 {
     text-align: left;
+    text-indent: 1.5em;
 }
 
-.p2{
-    text-align: right;
-}
 
 /* Hover Effect on Heading */
 h1:hover {
+    background-color: #744527;
     color: #d8bca3;
 }
 
