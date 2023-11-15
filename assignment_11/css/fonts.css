@@ -1,4 +1,24 @@
 @font-face {
-    font-family: face;
-    src: url();
+    font-family: 'bellota';
+    src: url(".fonts/Bellota-BoldItalic-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+@font-face {
+    font-family: 'bellota';
+    src: url(".fonts/Bellota-Light-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bellota';
+    src: url(".fonts/Bellota-Regular-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
