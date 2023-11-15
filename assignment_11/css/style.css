@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*General*/
 .container {
     background-color: rgba(184, 226, 231, 0.975);
     max-width: 1000px;
@@ -15,6 +15,7 @@ body {
     padding: 10px;
 }
 
+/*Heading Style*/
 h1 {
     font-size: 2.0em;
     font-family: Bellota-BoldItalic;
@@ -22,6 +23,7 @@ h1 {
     text-align: center;
 }
 
+/*Paragraph details*/
 p {
     text-align: justify;
 }
@@ -31,6 +33,12 @@ p {
     text-indent: 1.5em;
 }
 
+
+/*Styling for image*/
+img {
+    max-width: fit-content;
+    margin-top: auto;
+}
 
 /* Hover Effect on Heading */
 h1:hover {
