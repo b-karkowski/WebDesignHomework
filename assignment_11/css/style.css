@@ -1,7 +1,7 @@
 /* Internal CSS */
 body {
     font-family: 'Gill Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     color: #333;
     margin: 0;
@@ -36,8 +36,8 @@ p {
 
 /*Styling for image*/
 img {
-    max-width: fit-content;
-    margin-top: auto;
+    max-width:max-content;
+    margin-inline-end: auto;
 }
 
 /* Hover Effect on Heading */
