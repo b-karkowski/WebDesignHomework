@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-    background-color: rgba(152, 193, 198, 0.975);
-    max-width: 800px;
+    background-color: rgba(184, 226, 231, 0.975);
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 h1 {
