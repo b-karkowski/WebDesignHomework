@@ -19,7 +19,7 @@ header {
     padding: 10px;
 }
 
-.menu-button:hover {
+.menu-button:hover .dropdown{
     color: white;
     font-variant: bold;
     color: black;  
