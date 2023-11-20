@@ -17,23 +17,30 @@ header {
     background-color: darkred;
     color: black;
     padding: 10px;
-
 }
-
-/* Dropdown*/
-
-.menu-item {
-    display: none;
-    padding: 10px;
-    color: white;
-    color: black;
-  }
 
 .menu-button:hover {
     color: white;
     font-variant: bold;
     color: black;  
   }
+
+/* Dropdown*/
+
+.dropdown{
+    display: none;
+    padding: 10px;
+    border: #333;
+    color: white;
+    color: black;
+  }
+
+.dropdown:hover {
+    color: white;
+    font-variant: bold;
+    color: black;  
+  }
+
 
 
 
