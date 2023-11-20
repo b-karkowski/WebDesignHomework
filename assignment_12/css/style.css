@@ -14,7 +14,7 @@ header {
     display: inline-block;
     text-align: center;
     background-color: darkred;
-    text: black;
+    color: black;
 
 }
 
@@ -23,13 +23,13 @@ header {
 .menu-item {
     padding: 10px;
     color: white;
-    text: black;
+    color: black;
   }
 
 .menu:hover {
     color: white;
     font-variant: bold;
-    text: black;
+    color: black;
     
   }
   
