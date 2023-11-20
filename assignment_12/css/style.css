@@ -1,39 +1,36 @@
 /* General Styles */
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: black;
-    color: white;
-    margin: 0.25em;
-  }
-
-/* Menu */
-
-.menu {
-    display: inline-block;
-}
-  
-  .menu-content {
-    display: none;
-    background-color: darkred;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-  
-  .menu:hover .menu-content {
-    color: darkred
-    display: block;
-  }
-  
-  .menu-item {
-    padding: 10px;
-    color: white;
-  }
-  
+   }
 
 /* Header Styles */
 header {
-    background-color: darkred;
+    position: fixed;
+    background-color: black;
     padding: 10px;
-    text-align: right;
+}
+
+.menu-button {
+    display: inline-block;
+    text-align: center;
+    background-color: darkred;
+    text: black;
+
+}
+
+/* Dropdown*/
+
+.menu-item {
+    padding: 10px;
+    color: white;
+    text: black;
+  }
+
+.menu:hover {
+    color: white;
+    font-variant: bold;
+    text: black;
+    
   }
   
   /* Container Styles */
