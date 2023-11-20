@@ -14,7 +14,7 @@ header {
   }
   
   /* Container Styles */
-  
+
   .overflow-scroll {
     overflow: scroll;
  }
@@ -50,13 +50,12 @@ header {
   
   .menu-content {
     display: none;
-    position: absolute;
     background-color: darkred;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
+}
   
   .menu:hover .menu-content {
+    color: darkred
     display: block;
   }
   
