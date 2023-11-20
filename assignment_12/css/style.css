@@ -21,6 +21,7 @@ header {
 /* Dropdown*/
 
 .menu-item {
+    display: none;
     padding: 10px;
     color: white;
     color: black;
@@ -32,6 +33,9 @@ header {
     color: black;
     
   }
+
+
+
   
   /* Container Styles */
 
