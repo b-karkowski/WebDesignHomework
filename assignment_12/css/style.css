@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0.25em;
+  }
+
+/* Header Styles */
+header {
+    background-color: darkred;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Container Styles */
+  .container {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: darkred;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Dropdown Menu Styles */
+  .menu {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: darkred;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .menu:hover .menu-content {
+    display: block;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    color: white;
+  }
+  
+  /* Photo and Text Styles */
+  .photo-container {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .text-container {
+    width: 55%;
+    float: left;
+  }
+  
+  /* Remove Clearfix for Floats */
+  
