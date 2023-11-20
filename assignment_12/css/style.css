@@ -6,6 +6,29 @@ body {
     margin: 0.25em;
   }
 
+/* Menu */
+
+.menu {
+    display: inline-block;
+}
+  
+  .menu-content {
+    display: none;
+    background-color: darkred;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+  .menu:hover .menu-content {
+    color: darkred
+    display: block;
+  }
+  
+  .menu-item {
+    padding: 10px;
+    color: white;
+  }
+  
+
 /* Header Styles */
 header {
     background-color: darkred;
@@ -42,25 +65,3 @@ header {
     background-color: black;
 }
 
-/* Menu */
-  
-   .menu {
-    display: inline-block;
-}
-  
-  .menu-content {
-    display: none;
-    background-color: darkred;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-  
-  .menu:hover .menu-content {
-    color: darkred
-    display: block;
-  }
-  
-  .menu-item {
-    padding: 10px;
-    color: white;
-  }
-  
