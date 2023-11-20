@@ -36,11 +36,12 @@ header {
     padding: 2em;
     background-color: black;
 }
+
+/* Menu */
   
    .menu {
     display: inline-block;
-    position: relative;
-  }
+}
   
   .menu-content {
     display: none;
