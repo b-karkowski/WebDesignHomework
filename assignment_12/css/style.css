@@ -21,6 +21,7 @@ header {
     background-color: darkred;
     line-height: 2.1em;
     text-align: center;
+    display: inline-block
   }
  
  .menu-item:hover {
