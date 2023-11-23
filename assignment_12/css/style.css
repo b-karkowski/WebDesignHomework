@@ -11,36 +11,57 @@ header {
     width: 100%
 }
 
-.menu-button {
-    display: inline-block;
-    text-align: center;
+/* Top Menu */
+.menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 10pt;
+    color: #fff;
     background-color: darkred;
-    color: black;
-    padding: 10px;
+    line-height: 2.1em;
+    text-align: center;
+  }
+ 
+ .menu-item:hover {
+    background-color: gold;
+    color: #333;
+    font-weight: bolder;
+  }
+ 
+ 
+ /* Dropdown Menu */
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 2px solid #000;
+    margin: 0;
+    margin-top: 0.5em;
+    color: #000;
+    background-color: #fff;
+    z-index: 1;
 }
 
-menu-button:hover {
-    color: white;
-    font-variant: bold;
-    color: black;  
-  }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-/* Dropdown*/
-
-.dropdown{
-    display: none;
-    padding: 10px;
-    border: #333;
-    color: white;
+/* Dropdown Items */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em;
+    min-width: 7em;
+}
+.dropdown-item:hover {
     color: black;
-  }
-
-dropdown:hover {
-    color: white;
-    font-variant: bold;
-    color: black;  
-  }
-
+    background-color: gold;
+    
+}
   
   /* Container Styles */
 
