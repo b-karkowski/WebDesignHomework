@@ -12,6 +12,9 @@ header {
 }
 
 /* Top Menu */
+.display-inline-block {
+    display: inline-block;
+ }
 .menu-item {
     margin: auto;
     padding: 0.25em;
@@ -21,8 +24,7 @@ header {
     background-color: darkred;
     line-height: 2.1em;
     text-align: center;
-    display: inline-block
-  }
+}
  
  .menu-item:hover {
     background-color: gold;
